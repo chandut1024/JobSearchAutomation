@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NJS_Chandu" time="261.508" tests="3" failures="0" errors="0">
+   <testsuite name="NJS_Chandu" tests="3" failures="0" errors="0" time="261.508" timestamp="2020-01-02 14:23:35" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/NJS_Chandu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955285088.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955296430.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955306932.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955367444.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955378419.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955390912.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955452768.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955463574.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955475759.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.75"/>
+         <property name="hostAddress" value="10.0.26.179"/>
+         <property name="sessionId" value="3d8a0dba1353b6266e9b877aca8920b0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/deleteandupload3" time="91.687" classname="Test Cases/deleteandupload3" status="PASSED">
+         <system-out><![CDATA[2020-01-02 14:23:36 - [TEST_CASE][PASSED] - Test Cases/deleteandupload3: Test Cases/deleteandupload3
+
+2020-01-02 14:23:37 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 3)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:23:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-02 14:23:40 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-02 14:23:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-02 14:23:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:23:56 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-02 14:24:00 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-02 14:24:00 - [TEST_STEP][NOT_RUN] - closeWindowIndex(1): NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:24:00 - [MESSAGE][NOT_RUN] - NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:24:00 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:24:00 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:24:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-02 14:24:04 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-02 14:24:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:24:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:24:05 - [TEST_STEP][PASSED] - click(findTestObject("GoogleButton")): Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:24:06 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:24:06 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-02 14:24:10 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-02 14:24:10 - [TEST_STEP][PASSED] - setText(findTestObject("UserName"), findTestData("LoginDetailsNJS").getValue(2, 3)): Text 'chandut1024@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:24:11 - [MESSAGE][PASSED] - Text 'chandut1024@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:24:11 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:24:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-02 14:24:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-02 14:24:17 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), findTestData("LoginDetailsNJS").getValue(3, 3)): Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:24:17 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:24:17 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:24:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:24:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:24:18 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:24:28 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:24:28 - [TEST_STEP][PASSED] - click(findTestObject("ProfileName")): Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:24:28 - [MESSAGE][PASSED] - Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:24:28 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeButton")): Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:24:29 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeConfirm")): Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:24:29 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:24:29 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-02 14:24:44 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-02 14:24:44 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:24:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955285088.png]]
+
+2020-01-02 14:24:45 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 3)): File 'D:\chanduR\Resume33.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:24:46 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume33.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:24:46 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:24:56 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:24:56 - [TEST_STEP][NOT_RUN] - click(findTestObject("EditResumeHeadline")): NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:24:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:24:56 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:24:56 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:24:56 - [TEST_STEP][NOT_RUN] - click(findTestObject("SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:24:56 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:24:56 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:24:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955296430.png]]
+
+2020-01-02 14:24:56 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-02 14:24:56 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-02 14:24:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:25:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:25:06 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:25:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955306932.png]]
+
+2020-01-02 14:25:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-02 14:25:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload2" time="84.084" classname="Test Cases/deleteandupload2" status="PASSED">
+         <system-out><![CDATA[2020-01-02 14:25:08 - [TEST_CASE][PASSED] - Test Cases/deleteandupload2: Test Cases/deleteandupload2
+
+2020-01-02 14:25:08 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 2)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:25:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-02 14:25:08 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-02 14:25:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:25:19 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-02 14:25:24 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-02 14:25:24 - [TEST_STEP][NOT_RUN] - closeWindowIndex(1): NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:25:24 - [MESSAGE][NOT_RUN] - NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:25:24 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:25:24 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:25:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-02 14:25:28 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-02 14:25:28 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:25:28 - [TEST_STEP][PASSED] - click(findTestObject("GoogleButton")): Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:25:29 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:25:29 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-02 14:25:33 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-02 14:25:33 - [TEST_STEP][PASSED] - setText(findTestObject("UserName"), findTestData("LoginDetailsNJS").getValue(2, 2)): Text 'chanduthota371@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:25:34 - [MESSAGE][PASSED] - Text 'chanduthota371@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:25:34 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:25:34 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:25:34 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-02 14:25:39 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-02 14:25:39 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), findTestData("LoginDetailsNJS").getValue(3, 2)): Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:25:40 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:25:40 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:25:40 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:25:40 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:25:40 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:25:40 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:25:50 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:25:50 - [TEST_STEP][PASSED] - click(findTestObject("ProfileName")): Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:25:51 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeButton")): Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:25:52 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeConfirm")): Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:25:52 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:25:52 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-02 14:26:07 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-02 14:26:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:26:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955367444.png]]
+
+2020-01-02 14:26:07 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 2)): File 'D:\chanduR\Resume22.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:26:08 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume22.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:26:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:26:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:26:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("EditResumeHeadline")): NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:26:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:26:18 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:26:18 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:26:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:26:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:26:18 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:26:19 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955378419.png]]
+
+2020-01-02 14:26:19 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-02 14:26:20 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-02 14:26:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:26:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:26:30 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:26:31 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955390912.png]]
+
+2020-01-02 14:26:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-02 14:26:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload1" time="84.77" classname="Test Cases/deleteandupload1" status="PASSED">
+         <system-out><![CDATA[2020-01-02 14:26:32 - [TEST_CASE][PASSED] - Test Cases/deleteandupload1: Test Cases/deleteandupload1
+
+2020-01-02 14:26:32 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 1)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:26:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-01-02 14:26:32 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2020-01-02 14:26:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-02 14:26:45 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-02 14:26:49 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-02 14:26:49 - [TEST_STEP][NOT_RUN] - closeWindowIndex(1): NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:26:49 - [MESSAGE][NOT_RUN] - NOT_RUN: closeWindowIndex(1)
+
+2020-01-02 14:26:49 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:26:49 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:26:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-02 14:26:53 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-02 14:26:53 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2020-01-02 14:26:54 - [TEST_STEP][PASSED] - click(findTestObject("GoogleButton")): Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:26:54 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleButton' is clicked on
+
+2020-01-02 14:26:54 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-02 14:26:58 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-02 14:26:58 - [TEST_STEP][PASSED] - setText(findTestObject("UserName"), findTestData("LoginDetailsNJS").getValue(2, 1)): Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:26:59 - [MESSAGE][PASSED] - Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/UserName'
+
+2020-01-02 14:26:59 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:27:00 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:27:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-02 14:27:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-02 14:27:05 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), findTestData("LoginDetailsNJS").getValue(3, 1)): Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:27:05 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Password'
+
+2020-01-02 14:27:05 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:27:05 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2020-01-02 14:27:05 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-02 14:27:05 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-02 14:27:05 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:27:15 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:27:15 - [TEST_STEP][PASSED] - click(findTestObject("ProfileName")): Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:27:16 - [MESSAGE][PASSED] - Object: 'Object Repository/ProfileName' is clicked on
+
+2020-01-02 14:27:16 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeButton")): Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2020-01-02 14:27:17 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeConfirm")): Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:27:17 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2020-01-02 14:27:17 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-02 14:27:32 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-02 14:27:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:27:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955452768.png]]
+
+2020-01-02 14:27:33 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 1)): File 'D:\chanduR\Resume11.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:27:33 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume11.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2020-01-02 14:27:33 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:27:43 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:27:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("EditResumeHeadline")): NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:27:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2020-01-02 14:27:43 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:27:43 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2020-01-02 14:27:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:27:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2020-01-02 14:27:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:27:44 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955463574.png]]
+
+2020-01-02 14:27:44 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-02 14:27:45 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-02 14:27:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-02 14:27:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-02 14:27:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-02 14:27:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200102_142330\\NJS_Chandu\\20200102_142330\\1577955475759.png]]
+
+2020-01-02 14:27:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-02 14:27:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-02 14:23:35 - [TEST_SUITE][PASSED] - NJS_Chandu: Test Cases/deleteandupload1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

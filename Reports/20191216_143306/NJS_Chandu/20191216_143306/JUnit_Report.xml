@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NJS_Chandu" time="236.961" tests="4" failures="3" errors="0">
+   <testsuite name="NJS_Chandu" tests="4" failures="3" errors="0" time="236.961" timestamp="2019-12-16 14:33:17" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/NJS_Chandu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191216_143306\\NJS_Chandu\\20191216_143306"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191216_143306\\NJS_Chandu\\20191216_143306\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191216_143306\\NJS_Chandu\\20191216_143306\\1576487232557.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.75"/>
+         <property name="hostAddress" value="10.0.26.179"/>
+         <property name="sessionId" value="6c2d80f4a8e692863d7d87c1203c93fc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/deleteandupload3" time="74.618" classname="Test Cases/deleteandupload3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-16 14:33:18 - [TEST_CASE][FAILED] - Test Cases/deleteandupload3: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-16 14:33:21 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 3)): Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:33:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 14:33:25 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-16 14:33:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-16 14:33:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:33:58 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-16 14:34:00 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-16 14:34:00 - [TEST_STEP][FAILED] - closeWindowIndex(1): Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-12-16 14:34:32 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:34:33 - [MESSAGE][FAILED] - Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+)
+
+2019-12-16 14:34:33 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:34:33 - [MESSAGE][FAILED] - Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)]]></system-out>
+         <system-err><![CDATA[2019-12-16 14:33:18 - [TEST_CASE][FAILED] - Test Cases/deleteandupload3: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload2" time="71.184" classname="Test Cases/deleteandupload2" status="FAILED">
+         <failure type="FAILED" message="Test Cases/deleteandupload2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-16 14:34:33 - [TEST_CASE][FAILED] - Test Cases/deleteandupload2: Test Cases/deleteandupload2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-16 14:34:34 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 2)): Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:34:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-16 14:34:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 14:34:35 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-16 14:35:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:35:11 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-16 14:35:12 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-16 14:35:12 - [TEST_STEP][FAILED] - closeWindowIndex(1): Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-12-16 14:35:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:35:44 - [MESSAGE][FAILED] - Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+)
+
+2019-12-16 14:35:44 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:35:44 - [MESSAGE][FAILED] - Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)]]></system-out>
+         <system-err><![CDATA[2019-12-16 14:34:33 - [TEST_CASE][FAILED] - Test Cases/deleteandupload2: Test Cases/deleteandupload2 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload2.run(deleteandupload2:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload1" time="62.319" classname="Test Cases/deleteandupload1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/deleteandupload1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-16 14:35:44 - [TEST_CASE][FAILED] - Test Cases/deleteandupload1: Test Cases/deleteandupload1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-16 14:35:45 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 1)): Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:35:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-16 14:35:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 14:35:46 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-16 14:36:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-16 14:36:13 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-16 14:36:14 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-16 14:36:14 - [TEST_STEP][FAILED] - closeWindowIndex(1): Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2019-12-16 14:36:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:36:46 - [MESSAGE][FAILED] - Cannot find window with index: '1' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+)
+
+2019-12-16 14:36:46 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-12-16 14:36:46 - [MESSAGE][FAILED] - Unable to close window with index 1 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)]]></system-out>
+         <system-err><![CDATA[2019-12-16 14:35:44 - [TEST_CASE][FAILED] - Test Cases/deleteandupload1: Test Cases/deleteandupload1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload1.run(deleteandupload1:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCRCheck" time="27.278" classname="Test Cases/SCRCheck" status="PASSED">
+         <system-out><![CDATA[2019-12-16 14:36:46 - [TEST_CASE][PASSED] - Test Cases/SCRCheck: Test Cases/SCRCheck
+
+2019-12-16 14:36:47 - [TEST_STEP][PASSED] - openBrowser("https://scr.indianrailways.gov.in/"): Browser is opened with url: 'https://scr.indianrailways.gov.in/'
+
+2019-12-16 14:36:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-12-16 14:36:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-16 14:36:48 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-16 14:36:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://scr.indianrailways.gov.in/'
+
+2019-12-16 14:36:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-16 14:37:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-16 14:37:00 - [TEST_STEP][PASSED] - mouseOver(findTestObject("SCRPage/PublicInformation")): Object: 'Object Repository/SCRPage/PublicInformation' is hovered
+
+2019-12-16 14:37:01 - [MESSAGE][PASSED] - Object: 'Object Repository/SCRPage/PublicInformation' is hovered
+
+2019-12-16 14:37:01 - [TEST_STEP][PASSED] - click(findTestObject("SCRPage/PressRelease")): Object: 'Object Repository/SCRPage/PressRelease' is clicked on
+
+2019-12-16 14:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/SCRPage/PressRelease' is clicked on
+
+2019-12-16 14:37:02 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-16 14:37:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-16 14:37:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-16 14:37:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191216_143306\\NJS_Chandu\\20191216_143306\\1576487232557.png]]
+
+2019-12-16 14:37:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-16 14:37:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-16 14:33:17 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-16 14:33:17 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to close window with index 1
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.closeWindowIndex(CloseWindowIndexKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword.execute(CloseWindowIndexKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.closeWindowIndex(WebUiBuiltInKeywords.groovy:1888)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$closeWindowIndex$0.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576486986861.run(TempTestSuite1576486986861.groovy:36)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Cannot find window with index: '1'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.doCall(CloseWindowIndexKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.CloseWindowIndexKeyword$_closeWindowIndex_closure1.call(CloseWindowIndexKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

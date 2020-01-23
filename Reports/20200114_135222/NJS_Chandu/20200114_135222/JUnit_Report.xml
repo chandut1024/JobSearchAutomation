@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NJS_Chandu" time="32.106" tests="1" failures="0" errors="0">
+   <testsuite name="NJS_Chandu" tests="1" failures="0" errors="0" time="32.106" timestamp="2020-01-14 13:52:28" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/NJS_Chandu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200114_135222\\NJS_Chandu\\20200114_135222"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200114_135222\\NJS_Chandu\\20200114_135222\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.2.1.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="192.168.43.93"/>
+         <property name="sessionId" value="66f2f260-f770-49b4-8a37-7062b2d1b395"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Naukri/deleteandupload3" time="31.519" classname="Test Cases/Naukri/deleteandupload3" status="INCOMPLETE">
+         <system-out><![CDATA[2020-01-14 13:52:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Naukri/deleteandupload3: null
+
+2020-01-14 13:52:30 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 3)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-14 13:52:32 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-14 13:52:32 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-14 13:52:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-14 13:52:48 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-14 13:52:56 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-14 13:52:56 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-14 13:52:56 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-14 13:52:56 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-14 13:52:56 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-14 13:52:56 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-14 13:52:56 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-14 13:52:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-14 13:52:57 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-14 13:52:57 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/LoginButton")): Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-14 13:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-14 13:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/GoogleButton")): Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-14 13:52:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-14 13:52:59 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-14 13:53:00 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-14 13:53:00 - [TEST_STEP][INCOMPLETE] - setText(findTestObject("Naukri/UserName"), findTestData("LoginDetailsNJS").getValue(2, 3)): null]]></system-out>
+         <system-err><![CDATA[2020-01-14 13:52:29 - [TEST_CASE][INCOMPLETE] - Test Cases/Naukri/deleteandupload3: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-14 13:52:28 - [TEST_SUITE][INCOMPLETE] - NJS_Chandu: null]]></system-out>
+      <system-err><![CDATA[2020-01-14 13:52:28 - [TEST_SUITE][INCOMPLETE] - NJS_Chandu: null]]></system-err>
+   </testsuite>
+</testsuites>

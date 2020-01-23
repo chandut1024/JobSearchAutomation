@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NJS_Chandu" time="273.676" tests="4" failures="1" errors="0">
+   <testsuite name="NJS_Chandu" tests="4" failures="1" errors="0" time="273.676" timestamp="2019-12-17 08:02:06" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/NJS_Chandu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550064937.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550076725.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550089884.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550148908.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550159816.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550173260.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550197932.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Chrome 77.0.3865.75"/>
+         <property name="hostAddress" value="10.0.0.9"/>
+         <property name="sessionId" value="2957c03f190042d50ae83d440db4b1e9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/deleteandupload3" time="68.926" classname="Test Cases/deleteandupload3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-12-17 08:02:07 - [TEST_CASE][FAILED] - Test Cases/deleteandupload3: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-12-17 08:02:09 - [TEST_STEP][FAILED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 3)): Unable to open browser with url: 'https://www.naukri.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1576031565550.run(Script1576031565550.groovy:16)
+	... 13 more
+)
+
+2019-12-17 08:02:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 08:02:12 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-17 08:02:12 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-17 08:03:16 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://www.naukri.com/' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at Script1576031565550.run(Script1576031565550.groovy:16)
+	... 13 more
+)]]></system-out>
+         <system-err><![CDATA[2019-12-17 08:02:07 - [TEST_CASE][FAILED] - Test Cases/deleteandupload3: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload2" time="95.32" classname="Test Cases/deleteandupload2" status="PASSED">
+         <system-out><![CDATA[2019-12-17 08:03:16 - [TEST_CASE][PASSED] - Test Cases/deleteandupload2: Test Cases/deleteandupload2
+
+2019-12-17 08:03:17 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 2)): Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-17 08:03:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 08:03:17 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-17 08:03:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-17 08:03:36 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-17 08:03:38 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-17 08:03:38 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-17 08:03:39 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-17 08:03:39 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-12-17 08:03:39 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-12-17 08:03:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-17 08:03:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 08:03:40 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-12-17 08:03:41 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-12-17 08:03:41 - [TEST_STEP][PASSED] - click(findTestObject("GoogleButton")): Object: 'Object Repository/GoogleButton' is clicked on
+
+2019-12-17 08:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleButton' is clicked on
+
+2019-12-17 08:03:43 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-12-17 08:03:46 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-12-17 08:03:46 - [TEST_STEP][PASSED] - setText(findTestObject("UserName"), findTestData("LoginDetailsNJS").getValue(2, 2)): Text 'chanduthota371@gmail.com' is set on object 'Object Repository/UserName'
+
+2019-12-17 08:03:48 - [MESSAGE][PASSED] - Text 'chanduthota371@gmail.com' is set on object 'Object Repository/UserName'
+
+2019-12-17 08:03:48 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:03:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-12-17 08:03:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-17 08:03:54 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), findTestData("LoginDetailsNJS").getValue(3, 2)): Text 'achala$123' is set on object 'Object Repository/Password'
+
+2019-12-17 08:03:54 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Password'
+
+2019-12-17 08:03:54 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:03:55 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:03:55 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-12-17 08:03:55 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-12-17 08:03:55 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:04:05 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:04:05 - [TEST_STEP][PASSED] - click(findTestObject("ProfileName")): Object: 'Object Repository/ProfileName' is clicked on
+
+2019-12-17 08:04:08 - [MESSAGE][PASSED] - Object: 'Object Repository/ProfileName' is clicked on
+
+2019-12-17 08:04:08 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeButton")): Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2019-12-17 08:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2019-12-17 08:04:09 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeConfirm")): Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2019-12-17 08:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2019-12-17 08:04:09 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-12-17 08:04:24 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-12-17 08:04:24 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:04:25 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550064937.png]]
+
+2019-12-17 08:04:25 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 2)): File 'D:\chanduR\Resume2.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2019-12-17 08:04:26 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume2.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2019-12-17 08:04:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:04:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:04:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("EditResumeHeadline")): NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2019-12-17 08:04:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2019-12-17 08:04:36 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2019-12-17 08:04:36 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2019-12-17 08:04:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2019-12-17 08:04:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2019-12-17 08:04:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:04:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550076725.png]]
+
+2019-12-17 08:04:37 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-12-17 08:04:39 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-12-17 08:04:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:04:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:04:49 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:04:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550089884.png]]
+
+2019-12-17 08:04:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-17 08:04:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/deleteandupload1" time="83.276" classname="Test Cases/deleteandupload1" status="PASSED">
+         <system-out><![CDATA[2019-12-17 08:04:51 - [TEST_CASE][PASSED] - Test Cases/deleteandupload1: Test Cases/deleteandupload1
+
+2019-12-17 08:04:52 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 1)): Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-17 08:04:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 08:04:52 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-17 08:05:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2019-12-17 08:05:00 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-17 08:05:02 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-17 08:05:02 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2019-12-17 08:05:03 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2019-12-17 08:05:03 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-12-17 08:05:03 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-12-17 08:05:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-17 08:05:04 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 08:05:04 - [TEST_STEP][PASSED] - click(findTestObject("LoginButton")): Object: 'Object Repository/LoginButton' is clicked on
+
+2019-12-17 08:05:05 - [MESSAGE][PASSED] - Object: 'Object Repository/LoginButton' is clicked on
+
+2019-12-17 08:05:05 - [TEST_STEP][PASSED] - click(findTestObject("GoogleButton")): Object: 'Object Repository/GoogleButton' is clicked on
+
+2019-12-17 08:05:07 - [MESSAGE][PASSED] - Object: 'Object Repository/GoogleButton' is clicked on
+
+2019-12-17 08:05:07 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-12-17 08:05:08 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-12-17 08:05:08 - [TEST_STEP][PASSED] - setText(findTestObject("UserName"), findTestData("LoginDetailsNJS").getValue(2, 1)): Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/UserName'
+
+2019-12-17 08:05:12 - [MESSAGE][PASSED] - Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/UserName'
+
+2019-12-17 08:05:12 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:05:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-12-17 08:05:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-12-17 08:05:18 - [TEST_STEP][PASSED] - setText(findTestObject("Password"), findTestData("LoginDetailsNJS").getValue(3, 1)): Text 'achala$123' is set on object 'Object Repository/Password'
+
+2019-12-17 08:05:19 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Password'
+
+2019-12-17 08:05:19 - [TEST_STEP][PASSED] - click(findTestObject("NextButton")): Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:05:19 - [MESSAGE][PASSED] - Object: 'Object Repository/NextButton' is clicked on
+
+2019-12-17 08:05:19 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2019-12-17 08:05:19 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2019-12-17 08:05:19 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:05:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:05:29 - [TEST_STEP][PASSED] - click(findTestObject("ProfileName")): Object: 'Object Repository/ProfileName' is clicked on
+
+2019-12-17 08:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/ProfileName' is clicked on
+
+2019-12-17 08:05:32 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeButton")): Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2019-12-17 08:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeButton' is clicked on
+
+2019-12-17 08:05:33 - [TEST_STEP][PASSED] - click(findTestObject("DeleteResumeConfirm")): Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2019-12-17 08:05:33 - [MESSAGE][PASSED] - Object: 'Object Repository/DeleteResumeConfirm' is clicked on
+
+2019-12-17 08:05:33 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2019-12-17 08:05:48 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2019-12-17 08:05:48 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:05:49 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550148908.png]]
+
+2019-12-17 08:05:49 - [TEST_STEP][PASSED] - uploadFile(findTestObject("UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 1)): File 'D:\chanduR\Resume1.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2019-12-17 08:05:49 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume1.docx' sent to object: 'Object Repository/UploadResumeButton'
+
+2019-12-17 08:05:49 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:05:59 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:05:59 - [TEST_STEP][NOT_RUN] - click(findTestObject("EditResumeHeadline")): NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2019-12-17 08:05:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("EditResumeHeadline"))
+
+2019-12-17 08:05:59 - [TEST_STEP][NOT_RUN] - setText(findTestObject("ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2019-12-17 08:05:59 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("ResumeHeadLineText"), ".")
+
+2019-12-17 08:05:59 - [TEST_STEP][NOT_RUN] - click(findTestObject("SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2019-12-17 08:05:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("SaveResumeHeadLineButton"))
+
+2019-12-17 08:05:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:06:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550159816.png]]
+
+2019-12-17 08:06:00 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-12-17 08:06:03 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-12-17 08:06:03 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:06:13 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:06:13 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:06:13 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550173260.png]]
+
+2019-12-17 08:06:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-17 08:06:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/SCRCheck" time="24.573" classname="Test Cases/SCRCheck" status="PASSED">
+         <system-out><![CDATA[2019-12-17 08:06:14 - [TEST_CASE][PASSED] - Test Cases/SCRCheck: Test Cases/SCRCheck
+
+2019-12-17 08:06:15 - [TEST_STEP][PASSED] - openBrowser("https://scr.indianrailways.gov.in/"): Browser is opened with url: 'https://scr.indianrailways.gov.in/'
+
+2019-12-17 08:06:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-12-17 08:06:15 - [MESSAGE][INFO] - User set preference: ['args', '[--incognito]']
+
+2019-12-17 08:06:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://scr.indianrailways.gov.in/'
+
+2019-12-17 08:06:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-12-17 08:06:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-12-17 08:06:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("SCRPage/PublicInformation")): Object: 'Object Repository/SCRPage/PublicInformation' is hovered
+
+2019-12-17 08:06:25 - [MESSAGE][PASSED] - Object: 'Object Repository/SCRPage/PublicInformation' is hovered
+
+2019-12-17 08:06:25 - [TEST_STEP][PASSED] - click(findTestObject("SCRPage/PressRelease")): Object: 'Object Repository/SCRPage/PressRelease' is clicked on
+
+2019-12-17 08:06:27 - [MESSAGE][PASSED] - Object: 'Object Repository/SCRPage/PressRelease' is clicked on
+
+2019-12-17 08:06:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-12-17 08:06:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-12-17 08:06:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-17 08:06:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20191217_080159\\NJS_Chandu\\20191217_080159\\1576550197932.png]]
+
+2019-12-17 08:06:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-17 08:06:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-17 08:02:06 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-12-17 08:02:06 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://www.naukri.com/'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1576549920010.run(TempTestSuite1576549920010.groovy:36)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: DevToolsActivePort file doesn't exist
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00C9EB13+1501971]
+	Ordinal0 [0x00C1F6D1+980689]
+	Ordinal0 [0x00BA765F+489055]
+	Ordinal0 [0x00B3E9BC+59836]
+	Ordinal0 [0x00B3BC53+48211]
+	Ordinal0 [0x00B59800+169984]
+	Ordinal0 [0x00B5942D+169005]
+	Ordinal0 [0x00B578EB+162027]
+	Ordinal0 [0x00B40AC7+68295]
+	Ordinal0 [0x00B41B40+72512]
+	Ordinal0 [0x00B41AD9+72409]
+	Ordinal0 [0x00C38F37+1085239]
+	GetHandleVerifier [0x00D3D7ED+503293]
+	GetHandleVerifier [0x00D3D580+502672]
+	GetHandleVerifier [0x00D446AC+531644]
+	GetHandleVerifier [0x00D3DFFA+505354]
+	Ordinal0 [0x00C30606+1050118]
+	Ordinal0 [0x00C3047F+1049727]
+	Ordinal0 [0x00C3AF9B+1093531]
+	Ordinal0 [0x00C3B103+1093891]
+	Ordinal0 [0x00C3A095+1089685]
+	BaseThreadInitThunk [0x75498494+36]
+	RtlAreBitsSet [0x77CA41C8+136]
+	RtlAreBitsSet [0x77CA4198+88]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:356)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:317)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:208)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

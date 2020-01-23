@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="NJS_Chandu" time="333.891" tests="3" failures="1" errors="0">
+   <testsuite name="NJS_Chandu" tests="3" failures="1" errors="0" time="333.891" timestamp="2020-01-09 15:01:11" hostname="chandu.t - wlpt518.imidomain.com" id="Test Suites/NJS_Chandu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102"/>
+         <property name="logFiles" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562354083.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562439822.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562451537.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562466629.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562564784.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562577260.png, C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562592721.png"/>
+         <property name="hostName" value="chandu.t - wlpt518.imidomain.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.1.2.1"/>
+         <property name="browser" value="Firefox 71.0"/>
+         <property name="hostAddress" value="10.0.26.179"/>
+         <property name="sessionId" value="44ab4d06-d3bd-4c13-add4-70d5f8c107e5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0, executionList=}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Naukri/deleteandupload3" time="82.039" classname="Test Cases/Naukri/deleteandupload3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Naukri/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element &lt;input class=&quot;whsOnd zHQkBf&quot; name=&quot;password&quot; type=&quot;password&quot;> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-01-09 15:01:12 - [TEST_CASE][FAILED] - Test Cases/Naukri/deleteandupload3: Test Cases/Naukri/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-01-09 15:01:14 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 3)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:01:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-09 15:01:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-01-09 15:02:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:02:05 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:02:06 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:02:06 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:02:06 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:02:06 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:02:06 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:02:06 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-09 15:02:06 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-09 15:02:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-09 15:02:11 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-09 15:02:11 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/LoginButton")): Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/GoogleButton")): Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:02:14 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-09 15:02:14 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-09 15:02:14 - [TEST_STEP][PASSED] - setText(findTestObject("Naukri/UserName"), findTestData("LoginDetailsNJS").getValue(2, 3)): Text 'chandut1024@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:02:23 - [MESSAGE][PASSED] - Text 'chandut1024@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:02:23 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/NextButton")): Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:02:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:02:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-09 15:02:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-09 15:02:31 - [TEST_STEP][FAILED] - setText(findTestObject("Naukri/Password"), findTestData("LoginDetailsNJS").getValue(3, 3)): Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1576031565550.run(Script1576031565550.groovy:42)
+	... 13 more
+)
+
+2020-01-09 15:02:34 - [MESSAGE][FAILED] - Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at Script1576031565550.run(Script1576031565550.groovy:42)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562354083.png]]]]></system-out>
+         <system-err><![CDATA[2020-01-09 15:01:12 - [TEST_CASE][FAILED] - Test Cases/Naukri/deleteandupload3: Test Cases/Naukri/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Naukri/deleteandupload2" time="127.635" classname="Test Cases/Naukri/deleteandupload2" status="PASSED">
+         <system-out><![CDATA[2020-01-09 15:02:34 - [TEST_CASE][PASSED] - Test Cases/Naukri/deleteandupload2: Test Cases/Naukri/deleteandupload2
+
+2020-01-09 15:02:35 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 2)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:02:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-01-09 15:02:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-09 15:03:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:03:07 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:03:07 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:03:07 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:03:08 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:03:08 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:03:08 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:03:08 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-09 15:03:08 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-09 15:03:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-09 15:03:08 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-09 15:03:08 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/LoginButton")): Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/GoogleButton")): Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:03:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:03:11 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-09 15:03:12 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-09 15:03:12 - [TEST_STEP][PASSED] - setText(findTestObject("Naukri/UserName"), findTestData("LoginDetailsNJS").getValue(2, 2)): Text 'chanduthota371@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:03:19 - [MESSAGE][PASSED] - Text 'chanduthota371@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:03:19 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/NextButton")): Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:03:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:03:19 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-09 15:03:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-09 15:03:24 - [TEST_STEP][PASSED] - setText(findTestObject("Naukri/Password"), findTestData("LoginDetailsNJS").getValue(3, 2)): Text 'achala$123' is set on object 'Object Repository/Naukri/Password'
+
+2020-01-09 15:03:26 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Naukri/Password'
+
+2020-01-09 15:03:26 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/NextButton")): Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:03:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:03:30 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-09 15:03:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-09 15:03:30 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:03:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:03:40 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/ProfileName")): Object: 'Object Repository/Naukri/ProfileName' is clicked on
+
+2020-01-09 15:03:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/ProfileName' is clicked on
+
+2020-01-09 15:03:42 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/DeleteResumeButton")): Object: 'Object Repository/Naukri/DeleteResumeButton' is clicked on
+
+2020-01-09 15:03:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/DeleteResumeButton' is clicked on
+
+2020-01-09 15:03:43 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/DeleteResumeConfirm")): Object: 'Object Repository/Naukri/DeleteResumeConfirm' is clicked on
+
+2020-01-09 15:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/DeleteResumeConfirm' is clicked on
+
+2020-01-09 15:03:44 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-09 15:03:59 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-09 15:03:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:04:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562439822.png]]
+
+2020-01-09 15:04:00 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Naukri/UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 2)): File 'D:\chanduR\Resume22.docx' sent to object: 'Object Repository/Naukri/UploadResumeButton'
+
+2020-01-09 15:04:01 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume22.docx' sent to object: 'Object Repository/Naukri/UploadResumeButton'
+
+2020-01-09 15:04:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:04:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:04:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Naukri/EditResumeHeadline")): NOT_RUN: click(findTestObject("Naukri/EditResumeHeadline"))
+
+2020-01-09 15:04:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Naukri/EditResumeHeadline"))
+
+2020-01-09 15:04:11 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Naukri/ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("Naukri/ResumeHeadLineText"), ".")
+
+2020-01-09 15:04:11 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Naukri/ResumeHeadLineText"), ".")
+
+2020-01-09 15:04:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("Naukri/SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("Naukri/SaveResumeHeadLineButton"))
+
+2020-01-09 15:04:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Naukri/SaveResumeHeadLineButton"))
+
+2020-01-09 15:04:11 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:04:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562451537.png]]
+
+2020-01-09 15:04:12 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-09 15:04:16 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-09 15:04:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:04:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:04:26 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:04:27 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562466629.png]]
+
+2020-01-09 15:04:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-09 15:04:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Naukri/deleteandupload1" time="122.417" classname="Test Cases/Naukri/deleteandupload1" status="PASSED">
+         <system-out><![CDATA[2020-01-09 15:04:42 - [TEST_CASE][PASSED] - Test Cases/Naukri/deleteandupload1: Test Cases/Naukri/deleteandupload1
+
+2020-01-09 15:04:43 - [TEST_STEP][PASSED] - openBrowser(findTestData("LoginDetailsNJS").getValue(1, 1)): Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:04:43 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-01-09 15:05:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.naukri.com/'
+
+2020-01-09 15:05:05 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:05:07 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:05:07 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:05:07 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:05:07 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+2020-01-09 15:05:08 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+2020-01-09 15:05:08 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-09 15:05:09 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-09 15:05:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-01-09 15:05:09 - [MESSAGE][PASSED] - Current window maximized
+
+2020-01-09 15:05:09 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/LoginButton")): Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:05:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/LoginButton' is clicked on
+
+2020-01-09 15:05:13 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/GoogleButton")): Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:05:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/GoogleButton' is clicked on
+
+2020-01-09 15:05:17 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-01-09 15:05:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-01-09 15:05:17 - [TEST_STEP][PASSED] - setText(findTestObject("Naukri/UserName"), findTestData("LoginDetailsNJS").getValue(2, 1)): Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:05:21 - [MESSAGE][PASSED] - Text 'thota.chandu1@gmail.com' is set on object 'Object Repository/Naukri/UserName'
+
+2020-01-09 15:05:21 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/NextButton")): Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:05:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:05:25 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2020-01-09 15:05:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2020-01-09 15:05:30 - [TEST_STEP][PASSED] - setText(findTestObject("Naukri/Password"), findTestData("LoginDetailsNJS").getValue(3, 1)): Text 'achala$123' is set on object 'Object Repository/Naukri/Password'
+
+2020-01-09 15:05:31 - [MESSAGE][PASSED] - Text 'achala$123' is set on object 'Object Repository/Naukri/Password'
+
+2020-01-09 15:05:31 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/NextButton")): Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:05:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/NextButton' is clicked on
+
+2020-01-09 15:05:35 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+2020-01-09 15:05:35 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+2020-01-09 15:05:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:05:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:05:45 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/ProfileName")): Object: 'Object Repository/Naukri/ProfileName' is clicked on
+
+2020-01-09 15:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/ProfileName' is clicked on
+
+2020-01-09 15:05:47 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/DeleteResumeButton")): Object: 'Object Repository/Naukri/DeleteResumeButton' is clicked on
+
+2020-01-09 15:05:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/DeleteResumeButton' is clicked on
+
+2020-01-09 15:05:48 - [TEST_STEP][PASSED] - click(findTestObject("Naukri/DeleteResumeConfirm")): Object: 'Object Repository/Naukri/DeleteResumeConfirm' is clicked on
+
+2020-01-09 15:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Naukri/DeleteResumeConfirm' is clicked on
+
+2020-01-09 15:05:49 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2020-01-09 15:06:04 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2020-01-09 15:06:04 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:06:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562564784.png]]
+
+2020-01-09 15:06:05 - [TEST_STEP][PASSED] - uploadFile(findTestObject("Naukri/UploadResumeButton"), findTestData("LoginDetailsNJS").getValue(5, 1)): File 'D:\chanduR\Resume11.docx' sent to object: 'Object Repository/Naukri/UploadResumeButton'
+
+2020-01-09 15:06:07 - [MESSAGE][PASSED] - File 'D:\chanduR\Resume11.docx' sent to object: 'Object Repository/Naukri/UploadResumeButton'
+
+2020-01-09 15:06:07 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:06:17 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:06:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("Naukri/EditResumeHeadline")): NOT_RUN: click(findTestObject("Naukri/EditResumeHeadline"))
+
+2020-01-09 15:06:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Naukri/EditResumeHeadline"))
+
+2020-01-09 15:06:17 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Naukri/ResumeHeadLineText"), "."): NOT_RUN: setText(findTestObject("Naukri/ResumeHeadLineText"), ".")
+
+2020-01-09 15:06:17 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Naukri/ResumeHeadLineText"), ".")
+
+2020-01-09 15:06:17 - [TEST_STEP][NOT_RUN] - click(findTestObject("Naukri/SaveResumeHeadLineButton")): NOT_RUN: click(findTestObject("Naukri/SaveResumeHeadLineButton"))
+
+2020-01-09 15:06:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Naukri/SaveResumeHeadLineButton"))
+
+2020-01-09 15:06:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:06:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562577260.png]]
+
+2020-01-09 15:06:17 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2020-01-09 15:06:22 - [MESSAGE][PASSED] - Refresh successfully
+
+2020-01-09 15:06:22 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-01-09 15:06:32 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-01-09 15:06:32 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2020-01-09 15:06:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\chandu.t\\Katalon Studio\\NJS_Chandu\\Reports\\20200109_150102\\NJS_Chandu\\20200109_150102\\1578562592721.png]]
+
+2020-01-09 15:06:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2020-01-09 15:06:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-01-09 15:01:11 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/Naukri/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-01-09 15:01:11 - [TEST_SUITE][FAILED] - NJS_Chandu: Test Cases/Naukri/deleteandupload3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'achala$123' of object 'Object Repository/Naukri/Password'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:72)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$4.call(Unknown Source)
+	at deleteandupload3.run(deleteandupload3:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1578562262690.run(TempTestSuite1578562262690.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: Element <input class="whsOnd zHQkBf" name="password" type="password"> could not be scrolled into view
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'WLPT518', ip: '10.0.26.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 14532, moz:profile: C:\Users\chandu.t\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: a5fc76f6-e674-4423-a4ee-6622908362e1
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CFirefoxDriver.execute(CFirefoxDriver.java:27)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy9.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>
